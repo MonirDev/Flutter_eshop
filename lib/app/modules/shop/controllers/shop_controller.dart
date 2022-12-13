@@ -1,10 +1,9 @@
 import 'package:get/get.dart';
 
-class HomeController extends GetxController {
-  var num = 0.obs;
+class ShopController extends GetxController {
   @override
   void onInit() {
-    super.onInit();
     print('......................');
+    super.onInit();
   }
 }
