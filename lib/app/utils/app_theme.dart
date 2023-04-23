@@ -28,49 +28,27 @@ class AppThemeData {
 
 //TextTheme
     textTheme: TextTheme(
-      caption: TextStyle(
-        fontSize: 9.0.sp,
-        fontWeight: FontWeight.bold,
-        color: Colors.black,
-      ),
-      headline1: TextStyle(
+      headlineLarge: TextStyle(
         fontSize: 20.0.sp,
         fontWeight: FontWeight.bold,
         color: Colors.black,
       ),
-      headline2: TextStyle(
+      headlineMedium: TextStyle(
         fontSize: 19.0.sp,
         fontWeight: FontWeight.bold,
         color: Colors.black,
       ),
-      headline3: TextStyle(
+      headlineSmall: TextStyle(
         fontSize: 18.5.sp,
         fontWeight: FontWeight.w700,
         color: Color(0xFF28a745),
       ),
-      headline4: TextStyle(
-        fontSize: 18.sp,
-        fontWeight: FontWeight.w600,
-        color: Color(
-          0xff555555,
-        ),
-      ),
-      headline5: TextStyle(
-        fontSize: 18.sp,
-        color: Color(0xff1a1919),
-        fontWeight: FontWeight.w700,
-      ),
-      headline6: TextStyle(
-        fontSize: 16.sp,
-        color: Color(0xff777777),
-        fontWeight: FontWeight.w600,
-      ),
-      bodyText1: TextStyle(
+      bodyLarge: TextStyle(
         fontSize: 16.0.sp,
         fontWeight: FontWeight.w400,
         color: Colors.black,
       ),
-      bodyText2: TextStyle(
+      bodyMedium: TextStyle(
         fontSize: 14.0.sp,
         fontWeight: FontWeight.w400,
         color: Colors.black,
@@ -139,13 +117,13 @@ class AppThemeData {
         borderRadius: BorderRadius.circular(10.0),
         borderSide: BorderSide(color: AppColors.red.withOpacity(0.75)),
       ),
-      errorStyle: Get.textTheme.bodyText2!.copyWith(
+      errorStyle: Get.textTheme.bodyMedium!.copyWith(
           fontSize: 12.sp,
           color: const Color(
             0xffdc3545,
           ),
           fontWeight: FontWeight.normal),
-      hintStyle: Get.textTheme.headline1!.copyWith(
+      hintStyle: Get.textTheme.headlineLarge!.copyWith(
           color: AppColors.primaryColor,
           fontSize: 14.sp,
           fontWeight: FontWeight.w400),
